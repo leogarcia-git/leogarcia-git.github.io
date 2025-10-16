@@ -1,0 +1,112 @@
+body {
+  margin: 10px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  background-color: beige;
+  color:black;
+  text-align: justify;
+  outline: olive dashed 5px;
+}
+
+.main-container{
+padding: 10px;
+}
+
+.top{
+position: relative;
+border-style: dashed;
+margin: 5px;
+padding-left: 15px
+}
+
+.top-block{
+column-count: 3;
+column-gap: 5px;
+display: flex;
+flex: 1;
+}
+
+.about-me{
+border-style: dashed;
+margin: 5px;
+height:fit-content;
+padding-left: 15px;
+padding-right: 30px;
+}
+
+.skills{
+border-style: dashed;
+margin: 5px;
+height:fit-content;
+padding-left: 15px;
+padding-right: 30px;
+}
+
+.projects{
+border-style: dashed;
+margin: 5px;
+height:fit-content;
+padding-left: 15px;
+padding-right: 30px;
+}
+
+.hobbies{
+border-style: dashed;
+margin: 5px;
+height:fit-content;
+padding-left: 15px;
+padding-right: 30px;
+}
+
+.volunteering{
+border-style: dashed;
+margin: 5px;
+height:fit-content;
+padding-left: 15px;
+}
+
+.decor-layer{
+position: absolute;
+top: 0;
+right: 0;
+width: 250px;
+height:200px;
+pointer-events: none;
+z-index: 100;
+isolation: isolate;
+}
+
+.decor-layer .img{
+position: absolute;
+max-width: 100px;
+opacity: 0.9;
+transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.flower1 { 
+top: 8px; 
+right: 80px;
+z-index: 30;
+transform: rotate(-6deg);
+}
+
+.flower2 { 
+top: 36px; 
+right: 24px; 
+z-index: 2;
+transform: rotate(8deg) scale(0.95);
+}
+
+.dog1 { 
+bottom: 12px; 
+right: 100px; 
+z-index: 10;
+transform: rotate(-3deg) scale(0.9);
+}
+
+.cat1 { 
+bottom: -6px; 
+right: 10px; 
+z-index: 5;
+transform: scale(1.05);
+}
