@@ -85,14 +85,14 @@ body {
 .flower1 { 
   top: 8px; 
   right: 80px;
-  z-index: 5;
+  z-index: 9;
   transform: rotate(-6deg);
 }
 
 .flower2 { 
   top: 36px; 
   right: 24px; 
-  z-index: 6;
+  z-index: 10;
   transform: rotate(8deg) scale(0.95);
 }
 
